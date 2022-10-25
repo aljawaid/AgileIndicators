@@ -2,7 +2,7 @@
 
 ### _Plugin for Kanboard_
 
-Agile Indicators displays the measurements for Task Priorities and Task Complexities in an easy to use general scale. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.
+Agile Indicators for Kanboard display the measurements for Task Priorities and Task Complexities in an easy to use general format. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.
 
 Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")
 
