@@ -15,7 +15,7 @@ class Plugin extends Base
         $this->template->hook->attach('template:task:sidebar:actions', 'agileIndicators:task/sidebar');
 
         // CSS - Asset Hook - keep filename lowercase
-        $this->hook->on('template:layout:css', array('template' => 'plugins/Glancer/Assets/css/glancer.css'));
+        $this->hook->on('template:layout:css', array('template' => 'plugins/AgileIndicators/Assets/css/agile-indicators.css'));
     }
 
     public function onStartup()
