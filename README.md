@@ -10,14 +10,23 @@ Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Pr
 Features
 -------------
 
-
+- Task Priorities Scale
+Display priorities between P1 and P5 with general rules for each priority. Use this scale to improve the way you sort and categorise your tasks following a general pattern.
+- Task Complexities Scale
+Display complexities in groups of ten from 0 to 50. This scale will help those with more complex tasks to define their work and scoring following a general ruleset.
+- Both scales show in the interface dashboard and the task page sidebars.
 
 
 Screenshots
 ----------
 
+**Task Priorities**  
 
+![Task Priorities](../master/screenshot-priorities.png "Task Priorities")
 
+**Task Complexities**  
+
+![Task Complexities](../master/screenshot-complexities.png "Task Complexities")
 
 Translations
 ------------
