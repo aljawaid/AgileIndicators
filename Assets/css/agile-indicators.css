@@ -11,16 +11,96 @@
     --pp-white: #FFFFFF;
     --pp-green: #2EA02E;
     --pp-orange: #FF6500;
-    --red-icon-faded: #b71234a1;
     --border-radius: 3px;
     --button-blue-gradient: linear-gradient(to bottom, #7892c2 80%, #476e9e 100%);
-    --button-blue-border-gradient-match: #476E9E;
-    --link-hover-red: #AE003D;
-    --link-hover-white: #EEEEEE;
-    --pp-blue-box: rgba(0, 122, 201, 0.6);
-    --box-shadow: 1px 1px 1px 0px #000;
+    --blue-border-gradient-match: #476E9E;
+    --box-shadow-agile: 1px 1px 3px 0px;
+    --box-shadow-agile-color: #476E9E;
+    --background-red: #FF000054;
+    --background-green: #00800078;
+    --background-cream: #FFA5006E;
 }
 
 .display-none, .d-none {
     display: none !important;
+}
+
+#AgileTaskPriorities, #AgileTaskComplexities {
+    max-width: 150px;
+    font-size: 1em;
+    box-shadow: var(--box-shadow-agile) var(--box-shadow-agile-color);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#AgileTaskPriorities .table-list-header, #AgileTaskComplexities .table-list-header {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    border-color: var(--blue-border-gradient-match);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+#AgileTaskPriorities .agile-bg-red {
+    border-color: var(--blue-border-gradient-match);
+    background-color: var(--background-red);
+}
+
+#AgileTaskPriorities .agile-bg-green {
+    border-color: var(--blue-border-gradient-match);
+    background-color: var(--background-green);
+}
+
+#AgileTaskPriorities .agile-bg-cream {
+    border-color: var(--blue-border-gradient-match);
+    background-color: var(--background-cream);
+}
+
+#AgileTaskPriorities .agile-row  .agile-table-list-title strong, #AgileTaskComplexities .agile-row  .agile-table-list-title strong {
+    text-align: center !important;
+    display: block;
+    color: var(--pp-black);
+    text-transform: full-width;
+}
+
+.agile-table-list-details {
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--pp-black);
+}
+
+.agile-row .agile-table-list-details ul li {
+    display: list-item;
+}
+
+#TaskComplexitiesGradient {
+    background: #EBFC00;
+    background: -moz-linear-gradient(top,  #ebfc00 0%, #ffa84c 50%, #ff0f0f 100%);
+    background: -webkit-linear-gradient(top,  #ebfc00 0%,#ffa84c 50%,#ff0f0f 100%);
+    background: linear-gradient(to bottom,  #ebfc00 0%,#ffa84c 50%,#ff0f0f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebfc00', endColorstr='#ff0f0f',GradientType=0 );
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.agile-row {
+    padding: 10px 3px 7px 3px;
+    border-bottom: 1px solid var(--blue-border-gradient-match);
+    border-right: 1px solid var(--blue-border-gradient-match);
+    border-left: 1px solid var(--blue-border-gradient-match);
+    position: relative;
+}
+
+.agile-row .table-list-details {
+    color: var(--pp-black);
+    font-weight: normal;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.agile-row .table-list-details li {
+    list-style-type: none;
+}
+
+.agile-row:last-child, #AgileTaskPriorities .agile-row:last-child {
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
