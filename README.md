@@ -66,7 +66,8 @@ Note: Plugin folder is case-sensitive.
 Authors & Contributors
 ----------------------
 
-- @aljawaid - Author
+- [@aljawaid](https://github.com/aljawaid) - Author  
+- [@rainerbielefeld](https://github.com/RainerBielefeld) - Contributor
 - _Contributors welcome_
 
 License
