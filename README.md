@@ -31,6 +31,7 @@ Usage
 
 Go to your dashboard or any task and the indicators will be on the left
 Compatibility
+
 -------------
 
 - Requires [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.20`
@@ -76,6 +77,7 @@ Translations
 ------------
 
 - English (UK)
+- German
 - _Contributors welcome_
 
 
@@ -83,6 +85,7 @@ Authors & Contributors
 ----------------------
 
 - [@aljawaid](https://github.com/aljawaid) - Author
+- [@rainerbielefeld](https://github.com/RainerBielefeld) - Contributor
 - _Contributors welcome_
 
 
