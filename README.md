@@ -2,7 +2,7 @@
 
 #### _Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
 
-Agile Indicators for Kanboard display the measurements for Task Priorities and Task Complexities in an easy to use general format. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.
+AgileIndicators for Kanboard display the measurements for Task Priorities and Task Complexities in an easy to use general format. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.
 
 
 Features
@@ -26,12 +26,14 @@ Screenshots
 
 ![Task Complexities](../master/screenshot-complexities.png "Task Complexities")
 
+
 Usage
 -------------
 
 Go to your dashboard or any task and the indicators will be on the left
-Compatibility
 
+
+Compatibility
 -------------
 
 - Requires [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.20`
@@ -85,10 +87,10 @@ Authors & Contributors
 ----------------------
 
 - [@aljawaid](https://github.com/aljawaid) - Author
-- [@rainerbielefeld](https://github.com/RainerBielefeld) - Contributor
+- [Rainer Bielefeld](https://github.com/RainerBielefeld) - Contributor
 - _Contributors welcome_
 
 
 License
 -------
-- This project is distributed under [The Unlicense](../master/LICENSE "Read The Unlicense")
+- This project is distributed under the [MIT License](../master/LICENSE "Read The license")
