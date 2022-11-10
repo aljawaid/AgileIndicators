@@ -27,7 +27,7 @@ return array(
   'C41-C50' => 'C41-C50',
   'Easy task' => 'Einfache Aufgabe',
   'Little effort required' => 'Wenig Aufwand erforderlich',
-  'No external resource' => 'Keine externe Ressource benötigt',
+  'No external resources' => 'Keine externe Ressource benötigt',
   'Standard task complexity' => 'Standard-Aufgabenkomplexität',
   'Cost Implications' => 'Kosten-Auswirkungen',
   'Local resources are used' => 'Lokale Ressourcen werden genutzt',
