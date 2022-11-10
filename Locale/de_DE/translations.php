@@ -1,6 +1,6 @@
 <?php
 return array(
-  'Agile Indicators displays the measurements for Task Priorities and Task Complexities in an easy to use general scale. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.' => '"Agile Indicators" zeigt die Einstufung von Aufgabenpriorität und Aufgabenkomplexität in einer einfach zu verwendenden allgemeinen Skala an. Die Aufgabenpriorität wird zwischen P1 und P5 skaliert, während die Aufgabenkomplexität mit 0-50 bewertet wird.',
+  'Agile Indicators displays the measurements for Task Priorities and Task Complexities in an easy to use general scale. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.' => 'AgileIndicators zeigt die Einstufung von Aufgabenpriorität und Aufgabenkomplexität in einer einfach zu verwendenden allgemeinen Skala an. Die Aufgabenpriorität wird zwischen P1 und P5 skaliert, während die Aufgabenkomplexität mit 0-50 bewertet wird.',
   'Task Priorities' => 'Priorität der Aufgaben (in abfallender Folge)',
   'P1' => 'P1',
   'P2' => 'P2',
