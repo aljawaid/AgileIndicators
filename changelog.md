@@ -1,4 +1,4 @@
-# AgileIndicators Changelog
+# Changelog
 
 
 ## v1.1
