@@ -78,7 +78,6 @@
     background: -moz-linear-gradient(top,  #ebfc00 0%, #ffa84c 50%, #ff0f0f 100%);
     background: -webkit-linear-gradient(top,  #ebfc00 0%,#ffa84c 50%,#ff0f0f 100%);
     background: linear-gradient(to bottom,  #ebfc00 0%,#ffa84c 50%,#ff0f0f 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebfc00', endColorstr='#ff0f0f',GradientType=0 );
     border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
