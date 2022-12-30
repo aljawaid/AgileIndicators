@@ -10,12 +10,12 @@
             <strong><?= t('P1') ?></strong>
         </div>
         <div class="table-list-details agile-table-list-details">
-            <ul>
-                <li><?= t('Top priority') ?></li>
-                <li><?= t('Matter of urgency') ?></li>
-                <li><?= t('Time constraints') ?></li>
-                <li><?= t('Financial burden') ?></li>
-                <li><?= t('Other restrictions') ?></li>
+            <ul class="">
+                <li class=""><?= t('Top priority') ?></li>
+                <li class=""><?= t('Matter of urgency') ?></li>
+                <li class=""><?= t('Time constraints') ?></li>
+                <li class=""><?= t('Financial burden') ?></li>
+                <li class=""><?= t('Other restrictions') ?></li>
             </ul>
         </div>
     </div>
@@ -24,9 +24,9 @@
             <strong><?= t('P2') ?></strong>
         </div>
         <div class="table-list-details agile-table-list-details">
-            <ul>
-                <li><?= t('Priority') ?></li>
-                <li><?= t('Important') ?></li>
+            <ul class="">
+                <li class=""><?= t('Priority') ?></li>
+                <li class=""><?= t('Important') ?></li>
             </ul>
         </div>
     </div>
@@ -35,9 +35,9 @@
             <strong><?= t('P3') ?></strong>
         </div>
         <div class="table-list-details agile-table-list-details">
-            <ul>
-                <li><?= t('Work in progress') ?></li>
-                <li><?= t('Ongoing development') ?></li>
+            <ul class="">
+                <li class=""><?= t('Work in progress') ?></li>
+                <li class=""><?= t('Ongoing development') ?></li>
             </ul>
         </div>
     </div>
@@ -46,9 +46,9 @@
             <strong><?= t('P4') ?></strong>
         </div>
         <div class="table-list-details agile-table-list-details">
-            <ul>
-                <li><?= t('Low priority') ?></li>
-                <li><?= t('No timescale') ?></li>
+            <ul class="">
+                <li class=""><?= t('Low priority') ?></li>
+                <li class=""><?= t('No timescale') ?></li>
             </ul>
         </div>
     </div>
@@ -57,8 +57,8 @@
             <strong><?= t('P5') ?></strong>
         </div>
         <div class="table-list-details agile-table-list-details">
-            <ul>
-                <li><?= t('No priority') ?></li>
+            <ul class="">
+                <li class=""><?= t('No priority') ?></li>
             </ul>
         </div>
     </div>
@@ -74,10 +74,10 @@
                 <strong><?= t('C0-C10') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
-                <ul>
-                    <li><?= t('Easy task') ?></li>
-                    <li><?= t('Little effort required') ?></li>
-                    <li><?= t('No external resources') ?></li>
+                <ul class="">
+                    <li class=""><?= t('Easy task') ?></li>
+                    <li class=""><?= t('Little effort required') ?></li>
+                    <li class=""><?= t('No external resources') ?></li>
                 </ul>
             </div>
         </div>
@@ -86,10 +86,10 @@
                 <strong><?= t('C11-C20') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
-                <ul>
-                    <li><?= t('Standard task complexity') ?></li>
-                    <li><?= t('Cost Implications') ?></li>
-                    <li><?= t('Local resources are used') ?></li>
+                <ul class="">
+                    <li class=""><?= t('Standard task complexity') ?></li>
+                    <li class=""><?= t('Cost Implications') ?></li>
+                    <li class=""><?= t('Local resources are used') ?></li>
                 </ul>
             </div>
         </div>
@@ -98,10 +98,10 @@
                 <strong><?= t('C21-C30') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
-                <ul>
-                    <li><?= t('Effort required') ?></li>
-                    <li><?= t('Cost Implications') ?></li>
-                    <li><?= t('Local resources are used') ?></li>
+                <ul class="">
+                    <li class=""><?= t('Effort required') ?></li>
+                    <li class=""><?= t('Cost Implications') ?></li>
+                    <li class=""><?= t('Local resources are used') ?></li>
                 </ul>
             </div>
         </div>
@@ -110,10 +110,10 @@
                 <strong><?= t('C31-C40') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
-                <ul>
-                    <li><?= t('Considerable effort required') ?></li>
-                    <li><?= t('Requires accountability') ?></li>
-                    <li><?= t('Requires tracking') ?></li>
+                <ul class="">
+                    <li class=""><?= t('Considerable effort required') ?></li>
+                    <li class=""><?= t('Requires accountability') ?></li>
+                    <li class=""><?= t('Requires tracking') ?></li>
                 </ul>
             </div>
         </div>
@@ -122,10 +122,10 @@
                 <strong><?= t('C41-C50') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
-                <ul>
-                    <li><?= t('Serious physical effort') ?></li>
-                    <li><?= t('Serious mental effort') ?></li>
-                    <li><?= t('Local resources are used') ?></li>
+                <ul class="">
+                    <li class=""><?= t('Serious physical effort') ?></li>
+                    <li class=""><?= t('Serious mental effort') ?></li>
+                    <li class=""><?= t('Local resources are used') ?></li>
                 </ul>
             </div>
         </div>
