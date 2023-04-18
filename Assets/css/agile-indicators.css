@@ -26,11 +26,10 @@
 }
 
 #AgileTaskPriorities, #AgileTaskComplexities {
-    max-width: 150px;
+    width: fit-content;
     font-size: 1em;
     box-shadow: var(--box-shadow-agile) var(--box-shadow-agile-color);
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
 }
 
 #AgileTaskPriorities .table-list-header, #AgileTaskComplexities .table-list-header {
@@ -63,6 +62,9 @@
     text-transform: full-width;
 }
 
+#AgileTaskComplexities .agile-table-list-details {
+    font-size: 0.8em;
+}
 .agile-table-list-details {
     font-size: 0.9em;
     text-align: center;
