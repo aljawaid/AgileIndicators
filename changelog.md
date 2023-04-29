@@ -37,5 +37,6 @@ _(most recent changes are listed on top):_
 - Added css and changelog
 - Add Readme with screenshots
 
+---
 
 Read the full [**Changelog**](../master/changelog.md "See changes") or view the [**README**](../master/README.md "View README")

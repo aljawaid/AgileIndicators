@@ -1,12 +1,10 @@
 # AgileIndicators
-
-#### _Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
+![GitHub All Releases](https://img.shields.io/github/downloads/aljawaid/AgileIndicators/total?style=for-the-badge "GitHub All Downloads") - **_A plugin for [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software")_**
 
 AgileIndicators for Kanboard display the measurements for Task Priorities and Task Complexities in an easy to use general format. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.
 
 
-Features
--------------
+## Features
 
 - Task Priorities Scale
 Display priorities between P1 and P5 with general rules for each priority. Use this scale to improve the way you sort and categorise your tasks following a general pattern.
@@ -15,8 +13,7 @@ Display complexities in groups of ten from 0 to 50. This scale will help those w
 - Both scales show in the interface dashboard and the task page sidebars.
 
 
-Screenshots
-----------
+## Screenshots
 
 **Task Priorities**  
 
@@ -27,73 +24,47 @@ Screenshots
 ![Task Complexities](../master/screenshot-complexities.png "Task Complexities")
 
 
-Usage
--------------
+## Usage
 
 Go to your dashboard or any task and the indicators will be on the left
 
 
-Compatibility
--------------
+## Installation & Compatibility
 
-- Requires [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.20`
+<details>
+    <summary><strong>Installation</strong></summary>
 
-#### Other Plugins & Action Plugins
-- _No known issues_
-#### Core Files & Templates
-- _No Template overrides_
-- _No database changes_
+- Install via the **[Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software") Plugin Directory** or see [INSTALL.md](../master/INSTALL.md)
+- Read the full [**Changelog**](../master/changelog.md "See changes") to see the latest updates
 
+</details>
+<details>
+    <summary><strong>Compatibility</strong></summary>
 
-Changelog
----------
+- Requires [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.20`
+- **Other Plugins & Action Plugins**
+  - _No known issues_
+- **Core Files & Templates**
+  - _No template overrides_
+  - _No database changes_
 
-Read the full [**Changelog**](../master/changelog.md "See changes")
- 
+</details>
+<details>
+    <summary><strong>Translations</strong></summary>
 
-Installation
-------------
+- English (UK), German
+- _Starter template available_
 
-- **Install via the [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software") Plugin Directory**
-  - _Go to:_
-    - Kanboard: `Plugins` &#10562; `Plugin Directory`
-
-**_or_**
-
-- **Install via the [Releases](../master/Releases/ "A copy of each release is saved in the folder") folder**
-  - A copy of each release is saved in the `/Releases` folder of the repository
-  - Simply extract the `.zip` file into the `/plugins` directory
-
-**_or_**
-
-- **Install via [GitHub](https://github.com/aljawaid "Find the correct plugin from the list of repositories")**
-  - Download the `.zip` file and decompress everything under the directory `/plugins`
-  - The folder inside the `.zip` must not contain any branch names and must be exact case (matching the plugin name)
-
-_Note: The `/plugins` folder is case-sensitive._
-
-**_or_**
-
-- **Install using Git CLI**
-  - `git clone` (_or ftp upload_) and extract the `.zip` file into this folder: `.\plugins\` (must be exact case)
+</details>
 
 
-Translations
-------------
-
-- English (UK)
-- German
-- _Contributors welcome_
-
-
-Authors & Contributors
-----------------------
+## Authors & Contributors
 
 - [@aljawaid](https://github.com/aljawaid) - Author
 - [Rainer Bielefeld](https://github.com/RainerBielefeld) - Contributor
 - _Contributors welcome_
 
 
-License
--------
+## License
+
 - This project is distributed under the [MIT License](../master/LICENSE "Read The license")
