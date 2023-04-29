@@ -1,6 +1,17 @@
 <h1 name="readme-top">AgileIndicators</h1>
-
-![GitHub All Releases](https://img.shields.io/github/downloads/aljawaid/AgileIndicators/total?style=for-the-badge "GitHub All Downloads") - **_A plugin for [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software")_**
+<p align="center">
+    <img src="https://img.shields.io/github/v/release/aljawaid/AgileIndicators?style=for-the-badge&color=brightgreen" alt="GitHub Latest Release (by date)" title="GitHub Latest Release (by date)">
+    <img src="https://img.shields.io/github/downloads/aljawaid/AgileIndicators/total?style=for-the-badge&color=orange" alt="GitHub All Releases" title="GitHub All Downloads">
+    <img src="https://img.shields.io/github/directory-file-count/aljawaid/AgileIndicators?style=for-the-badge&color=orange" alt="GitHub Repository File Count" title="GitHub Repository File Count">
+    <img src="https://img.shields.io/github/repo-size/aljawaid/AgileIndicators?style=for-the-badge&color=orange" alt="GitHub Repository Size" title="GitHub Repository Size">
+    <img src="https://img.shields.io/github/languages/code-size/aljawaid/AgileIndicators?style=for-the-badge&color=orange" alt="GitHub Code Size" title="GitHub Code Size">
+</p>
+<p align="center">
+    <img src="https://img.shields.io/github/discussions/aljawaid/AgileIndicators?style=for-the-badge&color=blue" alt="GitHub Discussions" title="GitHub Discussions">
+    <img src="https://img.shields.io/github/commits-since/aljawaid/AgileIndicators/latest?include_prereleases&style=for-the-badge&color=blue" alt="GitHub Commits Since Last Release" title="GitHub Commits Since Last Release">
+    <img src="https://img.shields.io/github/commit-activity/m/aljawaid/AgileIndicators?style=for-the-badge&color=blue" alt="GitHub Commit Monthly Activity" title="GitHub Commit Monthly Activity">
+    <a href="https://github.com/kanboard/kanboard" title="Kanboard - Kanban Project Management Software"><img src="https://img.shields.io/badge/Plugin%20for-kanboard-D40000?style=for-the-badge" alt="Kanboard"></a>
+</p>
 
 AgileIndicators for Kanboard display the measurements for Task Priorities and Task Complexities in an easy to use general format. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.
 
