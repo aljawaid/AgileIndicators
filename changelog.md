@@ -3,8 +3,6 @@
 
 ## v1.2
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 - Update HTML
 - Prepare 2023
@@ -13,8 +11,6 @@ _(most recent changes are listed on top):_
 
 
 ## v1.1
-
-### What's Changed
 
 _(most recent changes are listed on top):_
 - c9cacda Change license to MIT
@@ -26,8 +22,6 @@ _(most recent changes are listed on top):_
 
 
 ## v1.0
-
-### What's Changed
 
 _(most recent changes are listed on top):_
 - Initial release
