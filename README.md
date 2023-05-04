@@ -1,4 +1,4 @@
-<h1 name="readme-top">AgileIndicators</h1>
+<h1 name="user-content-top">AgileIndicators</h1>
 <p align="center">
     <a href="https://github.com/aljawaid/AgileIndicators/releases">
         <img src="https://img.shields.io/github/v/release/aljawaid/AgileIndicators?style=for-the-badge&color=brightgreen" alt="GitHub Latest Release (by date)" title="GitHub Latest Release (by date)">
@@ -33,7 +33,7 @@
 
 AgileIndicators for Kanboard display the measurements for Task Priorities and Task Complexities in an easy to use general format. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8594; Next</a>] [<a href="#user-content-top">&#8593; Top</a>]</p>
 
 ## Features
 
@@ -43,7 +43,7 @@ Display priorities between P1 and P5 with general rules for each priority. Use t
 Display complexities in groups of ten from 0 to 50. This scale will help those with more complex tasks to define their work and scoring following a general ruleset.
 - Both scales show in the interface dashboard and the task page sidebars.
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#features">&#8592; Previous</a>] [<a href="#usage">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-bottom">&#8595; Bottom</a>] [<a href="#features">&#8592; Previous</a>] [<a href="#usage">&#8594; Next</a>] [<a href="#user-content-top">&#8593; Top</a>]</p>
 
 ## Screenshots
 
@@ -55,13 +55,13 @@ Display complexities in groups of ten from 0 to 50. This scale will help those w
 
 ![Task Complexities](../master/screenshot-complexities.png "Task Complexities")
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#features">&#8592; Previous</a>] [<a href="#installation--compatibility">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-bottom">&#8595; Bottom</a>] [<a href="#features">&#8592; Previous</a>] [<a href="#installation--compatibility">&#8594; Next</a>] [<a href="#user-content-top">&#8593; Top</a>]</p>
 
 ## Usage
 
 Go to your dashboard or any task and the indicators will be on the left
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8592; Previous</a>] [<a href="#authors--contributors">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8592; Previous</a>] [<a href="#authors--contributors">&#8594; Next</a>] [<a href="#user-content-top">&#8593; Top</a>]</p>
 
 ## Installation & Compatibility
 
@@ -91,7 +91,7 @@ Go to your dashboard or any task and the indicators will be on the left
 
 </details>
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#usage">&#8592; Previous</a>] [<a href="#license">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-bottom">&#8595; Bottom</a>] [<a href="#usage">&#8592; Previous</a>] [<a href="#license">&#8594; Next</a>] [<a href="#user-content-top">&#8593; Top</a>]</p>
 
 ## Authors & Contributors
 
@@ -99,7 +99,7 @@ Go to your dashboard or any task and the indicators will be on the left
 - [Rainer Bielefeld](https://github.com/RainerBielefeld) - Contributor
 - _Contributors welcome_
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#installation--compatibility">&#8592; Previous</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-bottom">&#8595; Bottom</a>] [<a href="#installation--compatibility">&#8592; Previous</a>] [<a href="#user-content-top">&#8593; Top</a>]</p>
 
 ## License
 
@@ -107,7 +107,7 @@ Go to your dashboard or any task and the indicators will be on the left
 
 ---
 
-<h3 align="center">
+<p align="center">
     <a href="https://github.com/aljawaid/AgileIndicators/stargazers" title="View Stargazers">
         <img src="https://img.shields.io/github/stars/aljawaid/AgileIndicators?logo=github&style=flat-square" alt="AgileIndicators">
     </a>
@@ -129,6 +129,6 @@ Go to your dashboard or any task and the indicators will be on the left
     <a href="https://github.com/aljawaid/AgileIndicators/compare/" title="Latest Commits">
         <img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/aljawaid/AgileIndicators/latest?style=flat-square">
     </a>
-</h3>
-<a name="readme-bottom"></a>
-<p align="right">[<a href="#readme-top">&#8593; Top</a>]</p>
+</p>
+<a name="user-content-bottom"></a>
+<p align="right">[<a href="#user-content-top">&#8593; Top</a>]</p>
