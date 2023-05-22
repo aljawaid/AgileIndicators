@@ -12,18 +12,16 @@
     --pp-green: #2EA02E;
     --pp-orange: #FF6500;
     --border-radius: 3px;
-    --button-blue-gradient: linear-gradient(to bottom, #7892c2 80%, #476e9e 100%);
+    --button-blue-gradient: linear-gradient(to bottom, #7892C2 80%, #476E9E 100%);
     --blue-border-gradient-match: #476E9E;
-    --box-shadow-agile: 1px 1px 3px 0px;
+    --box-shadow-agile: 1px 1px 3px 0;
     --box-shadow-agile-color: #476E9E;
     --background-red: #FF000054;
     --background-green: #00800078;
     --background-cream: #FFA5006E;
 }
 
-.display-none, .d-none {
-    display: none !important;
-}
+.display-none, .d-none { display: none; }
 
 #AgileTaskPriorities, #AgileTaskComplexities {
     width: fit-content;
@@ -63,10 +61,11 @@
 }
 
 #AgileTaskComplexities .agile-table-list-details {
-    font-size: 0.8em;
+    font-size: .8em;
 }
+
 .agile-table-list-details {
-    font-size: 0.9em;
+    font-size: .9em;
     text-align: center;
     color: var(--pp-black);
 }
@@ -77,9 +76,9 @@
 
 #TaskComplexitiesGradient {
     background: #EBFC00;
-    background: -moz-linear-gradient(top,  #ebfc00 0%, #ffa84c 50%, #ff0f0f 100%);
-    background: -webkit-linear-gradient(top,  #ebfc00 0%,#ffa84c 50%,#ff0f0f 100%);
-    background: linear-gradient(to bottom,  #ebfc00 0%,#ffa84c 50%,#ff0f0f 100%);
+    background: -moz-linear-gradient(top,  #EBFC00 0%, #FFA84C 50%, #FF0F0F 100%);
+    background: -webkit-linear-gradient(top,  #EBFC00 0%,#FFA84C 50%,#FF0F0F 100%);
+    background: linear-gradient(to bottom,  #EBFC00 0%,#FFA84C 50%,#FF0F0F 100%);
     border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
