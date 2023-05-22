@@ -65,6 +65,21 @@ Go to your dashboard or any task and the indicators will be on the left
 
 ## Installation & Compatibility
 
+<p align="left">
+    <a href="https://github.com/aljawaid/AgileIndicators/actions/workflows/linter.yml">
+        <img src="https://github.com/aljawaid/AgileIndicators/actions/workflows/linter.yml/badge.svg?branch=master&event=push" alt="Code Scanning" title="View Test">
+    </a>
+    <a href="https://github.com/aljawaid/AgileIndicators/actions/workflows/php-compatibility-7.4.yaml">
+        <img src="https://github.com/aljawaid/AgileIndicators/actions/workflows/php-compatibility-7.4.yaml/badge.svg?branch=master&event=push" alt="PHP Compatibility Test" title="View Test">
+    </a>
+    <a href="https://github.com/aljawaid/AgileIndicators/actions/workflows/php-compatibility-8.0.yaml">
+        <img src="https://github.com/aljawaid/AgileIndicators/actions/workflows/php-compatibility-8.0.yaml/badge.svg?branch=master&event=push" alt="PHP Compatibility Test" title="View Test">
+    </a>
+    <a href="https://github.com/aljawaid/AgileIndicators/actions/workflows/php-compatibility-8.2.yaml">
+        <img src="https://github.com/aljawaid/AgileIndicators/actions/workflows/php-compatibility-8.2.yaml/badge.svg?branch=master&event=push" alt="PHP Compatibility Test" title="View Test">
+    </a>
+</p>
+
 <details>
     <summary><strong>Installation</strong></summary>
 
