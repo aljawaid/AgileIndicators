@@ -1,6 +1,25 @@
 # Changelog
 
 
+## v1.3
+
+_(most recent changes are listed on top):_
+- FIX: CSS Code Syntax
+- NEW: Add Code Scanning Badges to README.md
+- FIX: README Navigation Links for GitHub
+- FIX: Markdown Syntax
+- FIX: README Navigation Links for GitHub
+- FIX: Code Syntax
+- NEW: Add Footer Badges to README.md
+- NEW: Add Section Navigation Links to README.md
+- NEW: Add Badges to README.md
+- NEW: Add README Page Navigation Links
+- FIX: Content Flow for README.md
+- Create INSTALL.md
+- FIX: Sizing
+- FIX: Unix (LF) Line Endings and Tabs > Spaces
+
+
 ## v1.2
 
 _(most recent changes are listed on top):_
