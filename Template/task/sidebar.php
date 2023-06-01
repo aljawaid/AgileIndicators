@@ -1,5 +1,4 @@
     </ul> <!-- CLOSING TAG FROM CORE TEMPLATE -->
-</div> <!-- CLOSING TAG FROM CORE TEMPLATE -->
 
 <hr>
 <div id="AgileTaskPriorities" class="table-list">    
@@ -131,3 +130,5 @@
         </div>
     </div>
 </div>
+
+</div> <!-- CLOSING TAG FROM CORE TEMPLATE -->
