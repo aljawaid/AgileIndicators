@@ -70,7 +70,7 @@
     <div id="TaskComplexitiesGradient">
         <div class="agile-row">
             <div class="table-list-details agile-table-list-title">
-                <strong><?= t('C0-C10') ?></strong>
+                <strong><?= t('C0 - C10') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
                 <ul class="">
@@ -82,7 +82,7 @@
         </div>
         <div class="agile-row">
             <div class="table-list-details agile-table-list-title">
-                <strong><?= t('C11-C20') ?></strong>
+                <strong><?= t('C11 - C20') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
                 <ul class="">
@@ -94,7 +94,7 @@
         </div>
         <div class="agile-row">
             <div class="table-list-details agile-table-list-title">
-                <strong><?= t('C21-C30') ?></strong>
+                <strong><?= t('C21 - C30') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
                 <ul class="">
@@ -106,7 +106,7 @@
         </div>
         <div class="agile-row">
             <div class="table-list-details agile-table-list-title">
-                <strong><?= t('C31-C40') ?></strong>
+                <strong><?= t('C31 - C40') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
                 <ul class="">
@@ -118,7 +118,7 @@
         </div>
         <div class="agile-row">
             <div class="table-list-details agile-table-list-title">
-                <strong><?= t('C41-C50') ?></strong>
+                <strong><?= t('C41 - C50') ?></strong>
             </div>
             <div class="table-list-details agile-table-list-details">
                 <ul class="">
@@ -130,5 +130,3 @@
         </div>
     </div>
 </div>
-
-</div> <!-- CLOSING TAG FROM CORE TEMPLATE -->
