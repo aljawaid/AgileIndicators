@@ -1,6 +1,16 @@
 # Changelog
 
 
+## v1.4
+
+_(most recent changes are listed on top):_
+- FIX: Neater Headings
+- FIX: Duplicate Translations
+- FIX: Update Translation Strings
+- FIX: Better Titles for Task Complexities
+- FIX: Closing Tag Location - replaced by a4c7aba
+
+
 ## v1.3
 
 _(most recent changes are listed on top):_
