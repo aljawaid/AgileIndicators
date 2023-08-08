@@ -36,6 +36,7 @@
     display: block;
     border-color: var(--blue-border-gradient-match);
     border-radius: var(--border-radius) var(--border-radius) 0 0;
+    font-size: .9em;
 }
 
 #AgileTaskPriorities .agile-bg-red {
@@ -57,7 +58,6 @@
     text-align: center !important;
     display: block;
     color: var(--pp-black);
-    text-transform: full-width;
 }
 
 #AgileTaskComplexities .agile-table-list-details {
