@@ -33,12 +33,9 @@ return array(
     'Cost Implications' => 'Kosten-Auswirkungen',
     'Local resources are used' => 'Lokale Ressourcen werden genutzt',
     'Effort required' => 'Ein gewisser Aufwand ist erforderlich',
-    'Cost Implications' => 'Kosten-Auswirkungen',
-    'Local resources are used' => 'Lokale Ressourcen werden genutzt',
     'Considerable effort required' => 'Erheblicher Aufwand erforderlich',
     'Requires accountability' => 'Rechenschaftspflicht erforderlich',
     'Requires tracking' => 'Nachverfolgung erforderlich',
     'Serious physical effort' => 'Erheblicher körperlicher Aufwand',
     'Serious mental effort' => 'Erheblicher geistiger Aufwand',
-    'Local resources are used' => 'Lokale Ressourcen werden genutzt',
 );

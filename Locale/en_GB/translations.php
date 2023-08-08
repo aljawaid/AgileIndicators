@@ -33,12 +33,9 @@ return array(
     'Cost Implications' => 'Cost Implications',
     'Local resources are used' => 'Local resources are used',
     'Effort required' => 'Effort required',
-    'Cost Implications' => 'Cost Implications',
-    'Local resources are used' => 'Local resources are used',
     'Considerable effort required' => 'Considerable effort required',
     'Requires accountability' => 'Requires accountability',
     'Requires tracking' => 'Requires tracking',
     'Serious physical effort' => 'Serious physical effort',
     'Serious mental effort' => 'Serious mental effort',
-    'Local resources are used' => 'Local resources are used',
 );
