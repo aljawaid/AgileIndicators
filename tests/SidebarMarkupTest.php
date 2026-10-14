@@ -6,6 +6,8 @@
  * Related files: Plugin.php, both Template sidebar files and Assets/css/agile-indicators.css.
  */
 
+// phpcs:disable PSR1.Files.SideEffects.FoundWithSymbols -- Standalone contract test executes immediately and defines local helpers.
+
 function relativeLuminance($hexColor)
 {
     $channels = array(
@@ -59,7 +61,7 @@ foreach ($templateFiles as $templateFile) {
         $errors[] = $templateName . ' has unbalanced list-item markup';
     }
 
-    if (! preg_match('/<\/li>\s*$/', $template)) {
+    if (!preg_match('/<\/li>\s*$/', $template)) {
         $errors[] = $templateName . ' must close its own list-item wrapper';
     }
 }
@@ -117,7 +119,7 @@ if (isset($colours['text'])) {
     }
 }
 
-if (! empty($errors)) {
+if (!empty($errors)) {
     fwrite(STDERR, implode(PHP_EOL, $errors) . PHP_EOL);
     exit(1);
 }

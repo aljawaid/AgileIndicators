@@ -44,7 +44,7 @@ foreach ($templateFiles as $templateFile) {
     preg_match_all("/t\\('([^']+)'\\)/", $template, $matches);
 
     foreach ($matches[1] as $key) {
-        if (! in_array($key, $referenceKeys, true)) {
+        if (!in_array($key, $referenceKeys, true)) {
             $errors[] = basename(dirname($templateFile)) . '/sidebar.php uses an unknown translation key: ' . $key;
         }
     }
@@ -58,7 +58,7 @@ if ($englishLoadPosition === false || $selectedLoadPosition === false || $englis
     $errors[] = 'Plugin.php must load en_US before the selected locale';
 }
 
-if (! empty($errors)) {
+if (!empty($errors)) {
     fwrite(STDERR, implode(PHP_EOL, $errors) . PHP_EOL);
     exit(1);
 }

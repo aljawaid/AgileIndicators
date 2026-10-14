@@ -1,4 +1,6 @@
-<?php // Keep this wrapper inside the Kanboard-owned sidebar list; covered by tests/SidebarMarkupTest.php. ?>
+<?php
+
+// Keep this wrapper inside the Kanboard-owned sidebar list; covered by tests/SidebarMarkupTest.php. ?>
 <li class="agile-indicators-sidebar">
 
 <hr>
