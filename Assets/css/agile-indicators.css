@@ -10,6 +10,7 @@
     --agile-indicators-complexity-low: #F5F59A;
     --agile-indicators-complexity-medium: #FFD0A3;
     --agile-indicators-complexity-high: #FFB3B3;
+
     list-style: none;
 }
 
@@ -21,7 +22,7 @@
     width: 100%;
     max-width: 18rem;
     font-size: 1em;
-    box-shadow: 1px 1px 3px 0 rgb(71 110 158 / 65%);
+    box-shadow: 1px 1px 3px 0 rgb(71, 110, 158, 0.65);
     margin: 20px auto;
 }
 
