@@ -1,106 +1,100 @@
 /* KANBOARD PLUGIN - AGILE INDICATORS CSS FILE */
+/* Sidebar structure and colour contrast are covered by tests/SidebarMarkupTest.php. */
 
-:root {
-    --pp-blue: #007AC9;
-    --pp-blue-alt: #00ADFF;
-    --pp-red: #B71234;
-    --pp-red-alt: #DA004C;
-    --pp-red-alt-2: #AE003D;
-    --pp-black: #000000;
-    --pp-grey: #4D4D4D;
-    --pp-white: #FFFFFF;
-    --pp-green: #2EA02E;
-    --pp-orange: #FF6500;
-    --border-radius: 3px;
-    --button-blue-gradient: linear-gradient(to bottom, #7892C2 80%, #476E9E 100%);
-    --blue-border-gradient-match: #476E9E;
-    --box-shadow-agile: 1px 1px 3px 0;
-    --box-shadow-agile-color: #476E9E;
-    --background-red: #FF000054;
-    --background-green: #00800078;
-    --background-cream: #FFA5006E;
+.agile-indicators-sidebar {
+    --agile-indicators-border: #476E9E;
+    --agile-indicators-text: #111111;
+    --agile-indicators-priority-high: #FFE0E0;
+    --agile-indicators-priority-medium: #DDF5DD;
+    --agile-indicators-priority-low: #FFF0C7;
+    --agile-indicators-complexity-low: #F5F59A;
+    --agile-indicators-complexity-medium: #FFD0A3;
+    --agile-indicators-complexity-high: #FFB3B3;
+    list-style: none;
 }
 
-.display-none, .d-none { display: none; }
+.agile-indicators-sidebar > hr {
+    margin: 15px 0;
+}
 
-#AgileTaskPriorities, #AgileTaskComplexities {
-    width: fit-content;
+.agile-indicators-sidebar .agile-indicators-scale {
+    width: 100%;
+    max-width: 18rem;
     font-size: 1em;
-    box-shadow: var(--box-shadow-agile) var(--box-shadow-agile-color);
-    margin: 20px auto 20px auto;
+    box-shadow: 1px 1px 3px 0 rgb(71 110 158 / 65%);
+    margin: 20px auto;
 }
 
-#AgileTaskPriorities .table-list-header, #AgileTaskComplexities .table-list-header {
+.agile-indicators-sidebar .table-list-header {
     text-transform: uppercase;
     text-align: center;
     display: block;
-    border-color: var(--blue-border-gradient-match);
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    border-color: var(--agile-indicators-border);
+    border-radius: 3px 3px 0 0;
     font-size: .9em;
 }
 
-#AgileTaskPriorities .agile-bg-red {
-    border-color: var(--blue-border-gradient-match);
-    background-color: var(--background-red);
+.agile-indicators-sidebar .agile-bg-red {
+    background-color: var(--agile-indicators-priority-high);
 }
 
-#AgileTaskPriorities .agile-bg-green {
-    border-color: var(--blue-border-gradient-match);
-    background-color: var(--background-green);
+.agile-indicators-sidebar .agile-bg-green {
+    background-color: var(--agile-indicators-priority-medium);
 }
 
-#AgileTaskPriorities .agile-bg-cream {
-    border-color: var(--blue-border-gradient-match);
-    background-color: var(--background-cream);
+.agile-indicators-sidebar .agile-bg-cream {
+    background-color: var(--agile-indicators-priority-low);
 }
 
-#AgileTaskPriorities .agile-row  .agile-table-list-title strong, #AgileTaskComplexities .agile-row  .agile-table-list-title strong {
-    text-align: center !important;
+.agile-indicators-sidebar .agile-table-list-title strong {
+    text-align: center;
     display: block;
-    color: var(--pp-black);
+    color: var(--agile-indicators-text);
 }
 
-#AgileTaskComplexities .agile-table-list-details {
+.agile-indicators-sidebar .agile-indicators-complexities .agile-table-list-details {
     font-size: .8em;
 }
 
-.agile-table-list-details {
+.agile-indicators-sidebar .agile-table-list-details {
     font-size: .9em;
     text-align: center;
-    color: var(--pp-black);
+    color: var(--agile-indicators-text);
 }
 
-.agile-row .agile-table-list-details ul li {
+.agile-indicators-sidebar .agile-table-list-details ul li {
     display: list-item;
 }
 
-#TaskComplexitiesGradient {
-    background: #EBFC00;
-    background: -moz-linear-gradient(top,  #EBFC00 0%, #FFA84C 50%, #FF0F0F 100%);
-    background: -webkit-linear-gradient(top,  #EBFC00 0%,#FFA84C 50%,#FF0F0F 100%);
-    background: linear-gradient(to bottom,  #EBFC00 0%,#FFA84C 50%,#FF0F0F 100%);
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
+.agile-indicators-sidebar .agile-indicators-complexity-gradient {
+    background: linear-gradient(
+        to bottom,
+        var(--agile-indicators-complexity-low) 0%,
+        var(--agile-indicators-complexity-medium) 50%,
+        var(--agile-indicators-complexity-high) 100%
+    );
+    border-radius: 0 0 3px 3px;
 }
 
-.agile-row {
+.agile-indicators-sidebar .agile-row {
     padding: 10px 3px 7px 3px;
-    border-bottom: 1px solid var(--blue-border-gradient-match);
-    border-right: 1px solid var(--blue-border-gradient-match);
-    border-left: 1px solid var(--blue-border-gradient-match);
+    border-bottom: 1px solid var(--agile-indicators-border);
+    border-right: 1px solid var(--agile-indicators-border);
+    border-left: 1px solid var(--agile-indicators-border);
     position: relative;
 }
 
-.agile-row .table-list-details {
-    color: var(--pp-black);
+.agile-indicators-sidebar .agile-row .table-list-details {
+    color: var(--agile-indicators-text);
     font-weight: normal;
     margin-top: 5px;
     line-height: 20px;
 }
 
-.agile-row .table-list-details li {
+.agile-indicators-sidebar .agile-row .table-list-details li {
     list-style-type: none;
 }
 
-.agile-row:last-child, #AgileTaskPriorities .agile-row:last-child {
-    border-radius: 0 0 var(--border-radius) var(--border-radius);
+.agile-indicators-sidebar .agile-row:last-child {
+    border-radius: 0 0 3px 3px;
 }

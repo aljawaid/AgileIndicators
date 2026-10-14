@@ -1,7 +1,8 @@
-</ul> <!-- CLOSING TAG FROM CORE TEMPLATE -->
+<?php // Keep this wrapper inside the Kanboard-owned sidebar list; covered by tests/SidebarMarkupTest.php. ?>
+<li class="agile-indicators-sidebar">
 
 <hr>
-<div id="AgileTaskPriorities" class="table-list">    
+<div class="table-list agile-indicators-scale agile-indicators-priorities">
     <div class="table-list-header"><strong><?= t('agile_indicators.task_priorities') ?></strong>
     </div>
     <div class="agile-row table-border-left agile-bg-red">
@@ -63,11 +64,11 @@
     </div>
 </div>
 
-<div id="AgileTaskComplexities" class="table-list">    
+<div class="table-list agile-indicators-scale agile-indicators-complexities">
     <div class="table-list-header">
         <strong><?= t('agile_indicators.task_complexities') ?></strong>
     </div>
-    <div id="TaskComplexitiesGradient">
+    <div class="agile-indicators-complexity-gradient">
         <div class="agile-row">
             <div class="table-list-details agile-table-list-title">
                 <strong><?= t('agile_indicators.c0_c10') ?></strong>
@@ -130,3 +131,4 @@
         </div>
     </div>
 </div>
+</li>

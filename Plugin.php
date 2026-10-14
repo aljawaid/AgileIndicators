@@ -8,6 +8,7 @@ use Kanboard\Core\Plugin\Base;
 /**
  * Register AgileIndicators hooks, assets and isolated translations.
  * Translation loading is covered by tests/TranslationIsolationTest.php.
+ * Sidebar hook placement is covered by tests/SidebarMarkupTest.php.
  */
 class Plugin extends Base
 {
@@ -15,7 +16,7 @@ class Plugin extends Base
     {
         // Layout - Template Hook - Override name should start lowercase e.g. pluginNameExampleCamelCase
         $this->template->hook->attach('template:dashboard:sidebar', 'agileIndicators:dashboard/sidebar');
-        $this->template->hook->attach('template:task:sidebar:actions', 'agileIndicators:task/sidebar');
+        $this->template->hook->attach('template:task:sidebar:information', 'agileIndicators:task/sidebar');
 
         // CSS - Asset Hook - keep filename lowercase
         $this->hook->on('template:layout:css', array('template' => 'plugins/AgileIndicators/Assets/css/agile-indicators.css'));

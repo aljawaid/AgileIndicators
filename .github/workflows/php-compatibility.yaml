@@ -58,6 +58,9 @@ jobs:
       - name: Test translation isolation
         run: php plugin/tests/TranslationIsolationTest.php
 
+      - name: Test sidebar markup and styling
+        run: php plugin/tests/SidebarMarkupTest.php
+
       - name: Install Kanboard dependencies
         run: composer install --working-dir=kanboard --no-dev --no-interaction --prefer-dist --no-progress --optimize-autoloader
 
