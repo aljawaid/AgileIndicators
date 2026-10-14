@@ -85,6 +85,7 @@ Go to your dashboard or any task and the indicators will be on the left
     <summary><strong>Compatibility</strong></summary>
 
 - Requires [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.20`
+- Compatibility checks target Kanboard `1.2.54` with PHP `8.2`–`8.5`
 - **Other Plugins & Action Plugins**
   - _No known issues_
 - **Core Files & Templates**
@@ -95,7 +96,7 @@ Go to your dashboard or any task and the indicators will be on the left
 <details>
     <summary><strong>Translations</strong></summary>
 
-- English (UK), German
+- English (US), English (UK), French, German, Chinese (Simplified)
 - _Starter template available_
 
 </details>
