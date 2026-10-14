@@ -5,6 +5,10 @@ namespace Kanboard\Plugin\AgileIndicators;
 use Kanboard\Core\Translator;
 use Kanboard\Core\Plugin\Base;
 
+/**
+ * Register AgileIndicators hooks, assets and isolated translations.
+ * Translation loading is covered by tests/TranslationIsolationTest.php.
+ */
 class Plugin extends Base
 {
     public function initialize()
@@ -19,7 +23,14 @@ class Plugin extends Base
 
     public function onStartup()
     {
-        Translator::load($this->languageModel->getCurrentLanguage(), __DIR__ . '/Locale');
+        // Namespaced English strings provide a safe fallback without overriding Kanboard translations.
+        Translator::load('en_US', __DIR__ . '/Locale');
+
+        $language = $this->languageModel->getCurrentLanguage();
+
+        if ($language !== 'en_US') {
+            Translator::load($language, __DIR__ . '/Locale');
+        }
     }
 
     public function getPluginName()
@@ -29,7 +40,7 @@ class Plugin extends Base
 
     public function getPluginDescription()
     {
-        return t('AgileIndicators displays the measurements for Task Priorities and Task Complexities in an easy to use general scale. Task Priorities are scaled between P1 and P5 whilst Task Complexities are scored as 0-50.');
+        return t('agile_indicators.description');
     }
 
     public function getPluginAuthor()
