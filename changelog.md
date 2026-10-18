@@ -1,6 +1,30 @@
 # Changelog
 
 
+## v1.5.2
+
+_(most recent changes are listed on top):_
+- NEW: Add AgileIndicators v1.5.2 Release
+
+
+## v1.5.1
+
+_(most recent changes are listed on top):_
+- FIX: BUG: Restore AgileIndicators Dark Theme Headings
+
+
+## v1.5.0
+
+_(most recent changes are listed on top):_
+- FIX: Remove AgileIndicators Stylelint Findings
+- FIX: Remove AgileIndicators PHPCS Findings
+- DOCS: Correct Compatibility And Translation Details
+- FIX: BUG: Render Indicators Safely In Kanboard Sidebars
+- FIX: BUG: Isolate Agile Indicator Translations
+- FIX: Verify Current Kanboard And PHP Compatibility
+- 中文语言包
+
+
 ## v1.4
 
 _(most recent changes are listed on top):_
