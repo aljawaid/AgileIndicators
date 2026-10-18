@@ -3,6 +3,7 @@
 
 .agile-indicators-sidebar {
     --agile-indicators-border: #476E9E;
+    --agile-indicators-heading: #333333;
     --agile-indicators-text: #111111;
     --agile-indicators-priority-high: #FFE0E0;
     --agile-indicators-priority-medium: #DDF5DD;
@@ -12,6 +13,13 @@
     --agile-indicators-complexity-high: #FFB3B3;
 
     list-style: none;
+}
+
+/* Keep scale headings readable while following Kanboard's active colour scheme. */
+@supports (color: light-dark(#333333, #E6EDF3)) {
+    .agile-indicators-sidebar {
+        --agile-indicators-heading: light-dark(#333333, #E6EDF3);
+    }
 }
 
 .agile-indicators-sidebar > hr {
@@ -27,6 +35,7 @@
 }
 
 .agile-indicators-sidebar .table-list-header {
+    color: var(--agile-indicators-heading);
     text-transform: uppercase;
     text-align: center;
     display: block;

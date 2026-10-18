@@ -119,6 +119,14 @@ if (isset($colours['text'])) {
     }
 }
 
+if (strpos($stylesheet, '--agile-indicators-heading: light-dark(#333333, #E6EDF3);') === false) {
+    $errors[] = 'Scale headings must follow Kanboard\'s active colour scheme';
+}
+
+if (contrastRatio('#E6EDF3', '#3B3B3B') < 4.5) {
+    $errors[] = 'Dark-theme scale heading contrast is below 4.5:1';
+}
+
 if (!empty($errors)) {
     fwrite(STDERR, implode(PHP_EOL, $errors) . PHP_EOL);
     exit(1);
