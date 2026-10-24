@@ -42,6 +42,7 @@ Display priorities between P1 and P5 with general rules for each priority. Use t
 - Task Complexities Scale
 Display complexities in groups of ten from 0 to 50. This scale will help those with more complex tasks to define their work and scoring following a general ruleset.
 - Both scales show in the interface dashboard and the task page sidebars.
+- On mobile screens, the scales fit the available sidebar width and wrap long labels.
 
 <p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#features">&#8592; Previous</a>] [<a href="#usage">&#8594; Next</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 

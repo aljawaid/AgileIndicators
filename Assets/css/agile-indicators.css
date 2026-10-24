@@ -108,3 +108,31 @@
 .agile-indicators-sidebar .agile-row:last-child {
     border-radius: 0 0 3px 3px;
 }
+
+/* Match Kanboard's tablet sidebar width without changing other plug-ins. */
+@media (max-width: 768px) {
+    .agile-indicators-sidebar {
+        box-sizing: border-box;
+        min-width: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .agile-indicators-sidebar .agile-indicators-scale {
+        box-sizing: border-box;
+        max-width: 100%;
+        margin: 12px 0;
+    }
+}
+
+/* Keep long indicator labels readable on narrow phones. */
+@media (max-width: 480px) {
+    .agile-indicators-sidebar .agile-row {
+        padding: 10px 8px;
+        overflow-wrap: anywhere;
+    }
+
+    .agile-indicators-sidebar .table-list-header {
+        overflow-wrap: anywhere;
+    }
+}

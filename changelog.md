@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- FIX: Keep both indicator scales within the available sidebar width on tablets and phones.
+- FIX: Wrap long indicator labels at narrow mobile widths.
 
 ## v1.5.2
 
